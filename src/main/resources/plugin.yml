@@ -1,0 +1,7 @@
+name: Bag_O_Holding
+version: '${project.version}'
+main: co.vangar.bagoholding.Bagoholding
+api-version: 1.19
+authors: [ Destined ]
+description: An upgradable bag o' holding capped at 1 per player
+website: https://vangar.co/
