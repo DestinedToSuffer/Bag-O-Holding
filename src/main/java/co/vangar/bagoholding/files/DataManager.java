@@ -10,7 +10,7 @@ import java.io.IOException;
 
 public class DataManager {
 
-    private static Plugin plugin = Bukkit.getPluginManager().getPlugin("Vsurvival");
+    private static Plugin plugin = Bukkit.getPluginManager().getPlugin("Bag_O_Holding");
 
     private static File file;
     private static FileConfiguration customFile;
@@ -21,7 +21,7 @@ public class DataManager {
             try{
                 file.createNewFile();
             }catch(IOException e){
-
+                System.out.println("Couldn't complete setup");
             }
         }
         customFile = YamlConfiguration.loadConfiguration(file);

@@ -11,7 +11,6 @@ import org.bukkit.inventory.ShapedRecipe;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Bagoholding extends JavaPlugin {
-
     private Bagoholding plugin = this;
 
     @Override

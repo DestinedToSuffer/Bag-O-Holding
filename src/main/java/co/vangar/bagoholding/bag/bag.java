@@ -54,10 +54,6 @@ public class bag implements Listener {
                             if(!e.getCurrentItem().getItemMeta().getDisplayName().toLowerCase().contains("max")){
                                 p.closeInventory();
                                 utils.upgradeMyBag(p, e.getClickedInventory());
-                            } else {
-                                p.closeInventory();
-                                DataManager.get().set(p.getUniqueId().toString() + ".content", null);
-                                utils.firstTime(p);
                             }
                         }
                     }
